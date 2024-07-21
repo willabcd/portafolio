@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="stilo.css" />
   </head>
   <body>
     <header class="header">
@@ -35,6 +35,9 @@
                 <a class="nav-link" href="#projects">Proyectos</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#skills">Habilidades</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#contact">Contacto</a>
               </li>
             </ul>
@@ -43,20 +46,20 @@
       </nav>
     </header>
 
-    <section id="hero" class="hero-section text-center">
+    <section id="hero" class="hero-section text-center text-white">
       <div class="container">
-        <h1 class="hero-title">Hola, soy [Tu Nombre]</h1>
+        <h1 class="hero-title">Hola, soy Willy peña mijahuanca</h1>
         <p class="hero-subtitle">
           Desarrollador web apasionado por la creación de experiencias
           digitales.
         </p>
-        <a href="#about" class="btn btn-primary mt-3">Más sobre mí</a>
+        <a href="#about" class="btn btn-light mt-3">Más sobre mí</a>
       </div>
     </section>
 
     <section id="about" class="about-section py-5">
       <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col-md-4 text-center">
             <img
               src="img/tu-foto.jpg"
@@ -65,12 +68,12 @@
             />
           </div>
           <div class="col-md-8">
-            <h2>Sobre mí</h2>
+            <h2 class="section-title">Sobre mí</h2>
             <p>
               Soy un desarrollador web con experiencia en la creación de
-              aplicaciones web modernas y eficientes. Me especializo en [tu
-              especialidad] y tengo una pasión por aprender y mejorar
-              continuamente mis habilidades.
+              aplicaciones web modernas y eficientes. Me especializo en Cloud y
+              tengo una pasión por aprender y mejorar continuamente mis
+              habilidades.
             </p>
           </div>
         </div>
@@ -79,10 +82,10 @@
 
     <section id="projects" class="projects-section py-5 bg-light">
       <div class="container">
-        <h2 class="text-center">Proyectos</h2>
+        <h2 class="section-title text-center">Proyectos</h2>
         <div class="row">
           <div class="col-md-4">
-            <div class="card">
+            <div class="card shadow-sm">
               <img
                 src="img/proyecto1.jpg"
                 class="card-img-top"
@@ -96,7 +99,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card">
+            <div class="card shadow-sm">
               <img
                 src="img/proyecto2.jpg"
                 class="card-img-top"
@@ -104,13 +107,13 @@
               />
               <div class="card-body">
                 <h5 class="card-title">Proyecto 2</h5>
-                <p class="card-text">Descripción breve del proyecto.</p>
+                <p class="card-text">DProyecto wed destinado</p>
                 <a href="#" class="btn btn-primary">Ver más</a>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card">
+            <div class="card shadow-sm">
               <img
                 src="img/proyecto3.jpg"
                 class="card-img-top"
@@ -127,9 +130,35 @@
       </div>
     </section>
 
-    <section id="contact" class="contact-section py-5">
+    <section id="skills" class="skills-section py-5">
       <div class="container">
-        <h2 class="text-center">Contacto</h2>
+        <h2 class="section-title text-center">Habilidades</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Lenguajes de Programación</h5>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h5>Frameworks y Librerías</h5>
+            <ul>
+              <li>Bootstrap</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Django</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section py-5 bg-light">
+      <div class="container">
+        <h2 class="section-title text-center">Contacto</h2>
         <form>
           <div class="mb-3">
             <label for="name" class="form-label">Nombre</label>
@@ -165,184 +194,7 @@
 
     <footer class="footer bg-dark text-white text-center py-3">
       <div class="container">
-        <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
-      </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
-    <script src="scripts.js"></script>
-  </body>
-</html>
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafolio Personal</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="header">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">Mi Portafolio</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#about">Sobre mí</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#projects">Proyectos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <section id="hero" class="hero-section text-center">
-      <div class="container">
-        <h1 class="hero-title">Hola, soy [Tu Nombre]</h1>
-        <p class="hero-subtitle">
-          Desarrollador web apasionado por la creación de experiencias
-          digitales.
-        </p>
-        <a href="#about" class="btn btn-primary mt-3">Más sobre mí</a>
-      </div>
-    </section>
-
-    <section id="about" class="about-section py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 text-center">
-            <img
-              src="img/tu-foto.jpg"
-              alt="Foto de Perfil"
-              class="profile-photo img-fluid rounded-circle"
-            />
-          </div>
-          <div class="col-md-8">
-            <h2>Sobre mí</h2>
-            <p>
-              Soy un desarrollador web con experiencia en la creación de
-              aplicaciones web modernas y eficientes. Me especializo en [tu
-              especialidad] y tengo una pasión por aprender y mejorar
-              continuamente mis habilidades.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="projects-section py-5 bg-light">
-      <div class="container">
-        <h2 class="text-center">Proyectos</h2>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card">
-              <img
-                src="img/proyecto1.jpg"
-                class="card-img-top"
-                alt="Proyecto 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Proyecto 1</h5>
-                <p class="card-text">Descripción breve del proyecto.</p>
-                <a href="#" class="btn btn-primary">Ver más</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img
-                src="img/proyecto2.jpg"
-                class="card-img-top"
-                alt="Proyecto 2"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Proyecto 2</h5>
-                <p class="card-text">Descripción breve del proyecto.</p>
-                <a href="#" class="btn btn-primary">Ver más</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img
-                src="img/proyecto3.jpg"
-                class="card-img-top"
-                alt="Proyecto 3"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Proyecto 3</h5>
-                <p class="card-text">Descripción breve del proyecto.</p>
-                <a href="#" class="btn btn-primary">Ver más</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="contact-section py-5">
-      <div class="container">
-        <h2 class="text-center">Contacto</h2>
-        <form>
-          <div class="mb-3">
-            <label for="name" class="form-label">Nombre</label>
-            <input
-              type="text"
-              class="form-control"
-              id="name"
-              placeholder="Tu nombre"
-            />
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input
-              type="email"
-              class="form-control"
-              id="email"
-              placeholder="Tu email"
-            />
-          </div>
-          <div class="mb-3">
-            <label for="message" class="form-label">Mensaje</label>
-            <textarea
-              class="form-control"
-              id="message"
-              rows="3"
-              placeholder="Tu mensaje"
-            ></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-      </div>
-    </section>
-
-    <footer class="footer bg-dark text-white text-center py-3">
-      <div class="container">
-        <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+        <p>&copy; 2024 Will. Todos los derechos reservados.</p>
       </div>
     </footer>
 

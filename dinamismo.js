@@ -6,17 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const heroSubtitle = document.querySelector(".hero-subtitle");
   const heroButton = document.querySelector(".btn-primary");
 
-  heroTitle.style.opacity = 0;
-  heroSubtitle.style.opacity = 0;
-  heroButton.style.opacity = 0;
-
-  setTimeout(() => {
-    heroTitle.style.transition = "opacity 1s";
-    heroSubtitle.style.transition = "opacity 1s";
-    heroButton.style.transition = "opacity 1s";
-
-    heroTitle.style.opacity = 1;
-    heroSubtitle.style.opacity = 1;
-    heroButton.style.opacity = 1;
-  }, 500);
+  heroTitle.classList.add("fade-in");
+  heroSubtitle.classList.add("fade-in");
+  heroButton.classList.add("fade-in");
 });
