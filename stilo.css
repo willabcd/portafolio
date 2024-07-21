@@ -177,77 +177,77 @@
 #about .col-md-8 {
   padding-left: 2rem; /* Espaciado a la izquierda del texto */
 }
-/* Estilo para la sección de proyectos */
-#projects {
-  background-color: #e9ecef; /* Color de fondo gris claro */
-  padding: 6rem 0; /* Espaciado superior e inferior */
+/* Sección de Proyectos */
+.projects-section {
+  background-color: #f9f9f9;
+  padding: 60px 0;
 }
 
-#projects .section-title {
-  font-size: 2.8rem; /* Tamaño del título */
-  font-weight: 700; /* Negrita */
-  margin-bottom: 4rem; /* Espaciado inferior */
-  color: #343a40; /* Color del título */
-  text-align: center; /* Centrar el texto */
+.projects-section .section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 .card {
-  border: none; /* Sin borde para las tarjetas */
-  border-radius: 0.8rem; /* Bordes redondeados */
-  overflow: hidden; /* Para asegurar que el contenido no sobresalga */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra de tarjeta más suave */
-  transition: transform 0.4s ease, box-shadow 0.4s ease; /* Transición suave */
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card:hover {
-  transform: scale(1.05); /* Ampliar la tarjeta al pasar el ratón */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); /* Aumentar la sombra al pasar el ratón */
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
-.card-img-top {
-  height: 220px; /* Altura fija para la imagen */
-  object-fit: cover; /* Ajustar la imagen para cubrir el área sin deformarse */
+.card img {
+  border-radius: 15px 15px 0 0;
+  height: 200px;
+  object-fit: cover;
 }
 
 .card-body {
-  padding: 2rem; /* Espaciado interno de la tarjeta */
+  padding: 20px;
 }
 
 .card-title {
-  font-size: 1.5rem; /* Tamaño del título de la tarjeta */
-  font-weight: 600; /* Peso de fuente para el título */
-  margin-bottom: 1.2rem; /* Espaciado inferior */
-  color: #495057; /* Color del título */
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #3498db;
+  transition: color 0.3s ease;
 }
 
 .card-text {
-  font-size: 1.1rem; /* Tamaño del texto de la tarjeta */
-  color: #6c757d; /* Color del texto */
-  margin-bottom: 1.8rem; /* Espaciado inferior */
+  color: #7f8c8d;
+  margin-bottom: 15px;
 }
 
-.btn-primary {
-  background-color: #007bff; /* Color de fondo del botón */
-  border: none; /* Sin borde */
-  padding: 0.8rem 1.6rem; /* Espaciado interno del botón */
-  font-size: 1.1rem; /* Tamaño del texto del botón */
-  border-radius: 0.5rem; /* Bordes redondeados */
-  transition: background-color 0.4s ease, color 0.4s ease; /* Transición suave */
+.card .btn-primary {
+  color: #3498db;
+  transition: background-color 0.3s ease;
 }
 
-.btn-primary:hover {
-  background-color: #0056b3; /* Color de fondo al pasar el ratón */
-  color: #ffffff; /* Color del texto al pasar el ratón */
+.card:hover .card-title {
+  color: #2980b9;
 }
 
-a {
-  text-decoration: none; /* Quitar la subrayado de los enlaces */
-  color: inherit; /* Heredar el color del texto */
+.card a {
+  text-decoration: none;
+  color: black;
 }
 
-a:hover {
-  color: #007bff; /* Color del enlace al pasar el ratón */
+/* Ocultar los puntos de la lista */
+.projects-section ul {
+  list-style: none;
+  padding-left: 0;
 }
+
 /* Estilo para la sección de habilidades */
 #skills {
   background-color: #f8f9fa; /* Color de fondo gris muy claro */
