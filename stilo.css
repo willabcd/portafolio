@@ -132,7 +132,33 @@
 .navbar-nav .dropdown-item.active {
   background-color: #1e7e34; /* Fondo del ítem activo */
 }
+.profile-photo {
+  width: 200px; /* Ajusta el tamaño de la imagen aquí */
+  height: 200px; /* Ajusta el tamaño de la imagen aquí */
+  border: 5px solid #87ceeb; /* Borde azul claro medio celeste */
+  object-fit: cover; /* Para asegurarse de que la imagen mantenga sus proporciones */
+  border-radius: 50%; /* Hace la imagen redonda */
+}
 
+/* Sección de Sobre mí */
+.about-section {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+.about-section .section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  color: #333333;
+}
 /*SOBRE MI*/
 /* Estilo de la sección "Sobre mí" */
 #about {
